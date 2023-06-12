@@ -1,97 +1,122 @@
+- title: "<strong>**Add more skills earned under technical skills, and update research experience in both CV and here**</strong>"
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Kazi Shahrukh Omar
     - name: Date of Birth
-      value: 14th March 1879
+      value: 05 May 1996
     - name: Languages
-      value: English, German
+      value: English, Bengali
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy, Computer Science
+      institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
+      year: 2021 - 2026 <br><br>(Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "GPA (Current): 4.00/4.00"
+        - "Advised by: <a href='https://fmiranda.me/'>Dr. Fabio Miranda</a>"
+        - "Research area: urban computing, data analytics & visualization, applied machine learning"
+    - title: Bachelor of Science, Computer Science
+      institution: "<a href='https://mist.ac.bd/'>Military Institute of Science and Tehcnology, Bangladesh</a>"
+      year: 2015 - 2019
+      description:
+        - "GPA: 3.71/4.00 (Top 10th percentile)"
+        - "Thesis Supervisor: <a href='https://mist.ac.bd/department/cse/facultyMembers/lt_col_muhammad_nazrul_islam_phd-47'>Dr. Muhammad Nazrul Islam</a>"
+        - title: "Research Experience:"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - "<small>Developed a prediction model to detect autism spectrum disorder (ASD) for different age groups using a merged random forest (CART and ID3) classifier. The model could effectively predict autistic traits for all three age groups and was later deployed in a mobile application.</small>"
+            - "<small>Developed a system for tracking Alzheimer patients’ health and location through IOT hardware modules and a mobile application.</small>"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    # - title: Graduate Research Assistant
+    #     institution: "<a href='https://www.uic.edu/'>University of Illinois at Chicago, Department of Computer Science</a>"
+    #     year: Aug 2021 - Present
+    #     description:
+    #       - "Investigated coverage of OpenStreetMap (OSM) sidewalk data and computed the trustworthiness index as an alternative measure to assess the quality of the data. Our study takes a step toward understanding OSM sidewalk data quality by evaluating its coverage and reliability."
+    #       - "Developed a novel computational framework based on a conditional generative adversarial neural network that enables the quantification of sunlight access and shadows at a global scale."
+    #       - "Developed an in-memory model to approximate spatiotemporal mobility-flow queries based on NeuralCubes - a neural network model for learning query-result approximation."
+    - title: Graduate Research Assistant
+      institution: "<a href='https://www.uic.edu/'>University of Illinois at Chicago, USA</a>"
+      year: Aug 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "Supervisor: <a href='https://fmiranda.me/'>Dr. Fabio Miranda</a>"
+        - title: "Research Experience:"
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - "<small>Investigated coverage of OpenStreetMap (OSM) sidewalk data and computed the trustworthiness index as an alternative measure to assess the quality of the data. Our study takes a step toward understanding OSM sidewalk data quality by evaluating its coverage and reliability.</small>"
+            - "<small>Developed a novel computational framework based on a conditional generative adversarial neural network that enables the quantification of sunlight access and shadows at a global scale.</small>"
+            - "<small>Developed an in-memory model to approximate spatiotemporal mobility-flow queries based on NeuralCubes - a neural network model for learning query-result approximation.</small>"
+
+    - title: Graduate Teaching Assistant
+      institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
+      year: Aug 2022 - Dec 2022<br><br>(Fall 2022)
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "<a href='https://fmiranda.me/courses/cs424-fall-2022/'>CS 424: Visualization and Visual Analytics</a>"
+        - "Course Instructor: Dr. Fabio Miranda."
+    - title: Graduate Teaching Assistant
+      institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
+      year: Jan 2022 - Mar 2022<br><br>(Spring 2022)
       description:
+        - "<a href='https://fmiranda.me/courses/cs425-spring-2022/'>CS 425: Computer Graphics</a>"
+        - "Course Instructor: Dr. Fabio Miranda."
+    - title: Lecturer
+      institution: "<a href='https://uttarauniversity.edu.bd/'>Uttara University, Bangladesh</a>"
+      year: Jul 2019 - Jun 2021
+      description:
+        - "Courses Taught: Discrete Mathematics - Computer Peripheral, Interfacing and Maintenance - Digital Logic Design - Computer Graphics - Object Oriented Programming - Design and Analysis of Algorithms - Data Structures."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2018
+      description: "Merit Scholarship for academic performance, Military Institute of Science and Technology"
+    - year: 2016 - 2017
+      description: "Dean’s List Award (two consecuctive years), Military Institute of Science and Technology"
+    
 
-- title: Academic Interests
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
+        - "Proficient: Python, C/C++"
+        - "Familiar: JavaScript, Java, R, MATLAB, Shell Scripting"
+    - title: Web
+      items:
+        - "HTML, CSS, Bootstrap, Angular, Flask"
+    - title: Libraries
+      items:
+        - "NumPy, Pandas, Dask, Matplotlib, Seaborn, Plotly, scikit-learn, TensorFlow, d3.js, Shiny"
+    - title: Other Skills
+      items:
+        - Version control - Git
+        - Latex/Overleaf
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> listening to music, playing Guitar, singing, travelling, cycling.
