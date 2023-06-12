@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - komar41
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - komar41/crowdsourcing-and-sidewalk-data
+  - komar41/Big-Yellow-Taxi
+  - komar41/Subway
+  - komar41/Dont-Sleep-in-the-Subway
+  - komar41/Shadow-Map 
+  
+  
