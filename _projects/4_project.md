@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Modeling the Pandemic
+description: 
+img: 'assets/img/projects/modeling_the_pandemic/thumbnail.png'
+importance: 4
+category: Other
 ---
 
 Every project has a beautiful feature showcase page.

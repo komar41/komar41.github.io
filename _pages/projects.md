@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: "<h3>**Document the projects and add here in a good format**</h3>"
+description: "<h3>**Document the projects and add here in a good format. Divide categorires by research/others.. or by tech stack**</h3>"
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [Research, Other]
 horizontal: false
 ---
 
