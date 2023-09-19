@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Street Network Shadow
-description: 
+description: Visualizing the distribution of accumulated shadows in streets of Chicago for three seasons
 img: 'assets/img/projects/street_network_shadow/thumbnail.gif'
 importance: 9
 category: Other

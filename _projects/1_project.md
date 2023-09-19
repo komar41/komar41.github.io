@@ -7,7 +7,7 @@ importance: 1
 category: Other
 ---
 
-<h5><u>Access this Project</u></h5>
+<h5><u>Access this project</u></h5>
 <b>Demo URL:</b> <a href='https://ktqjmz-kazi0shahrukh-omar.shinyapps.io/cs424-project1-kzo'>https://ktqjmz-kazi0shahrukh-omar.shinyapps.io/cs424-project1-kzo/</a> <br>
 <b>Introduction video:</b> <a href='https://youtu.be/crEsxcrTsXU'>https://youtu.be/crEsxcrTsXU</a> <br>
 <b>GitHub repo:</b> <a href='https://github.com/komar41/CS-424-Project-1-kzo'>https://github.com/komar41/CS-424-Project-1-kzo</a> <br>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sentiment Analysis
-description: 
+description: Classifying sentiment or opinion expressed in tweets during 2012 US elections
 img: 'assets/img/projects/sentiment_analysis/thumbnail.png'
 importance: 11
 category: Other

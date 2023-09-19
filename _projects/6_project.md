@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FlowVis
-description: 
+description: Computational fluid flow simulation of 3D point cloud data using three.js
 img: 'assets/img/projects/flowvis/thumbnail.png'
 importance: 7
 category: Other

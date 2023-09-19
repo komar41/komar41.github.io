@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modeling the Pandemic
-description: 
+description: Visualizing impact of COVID in Chicago, using socio- demographic and COVID data
 img: 'assets/img/projects/modeling_the_pandemic/thumbnail.png'
 importance: 4
 category: Other

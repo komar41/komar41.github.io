@@ -1,7 +1,7 @@
 ---
 layout: page
 title: US Gun Deaths
-description: 
+description: Visualization tool to inspect number of gun deaths in the US states and cities in year 2013
 img: 'assets/img/projects/us_gun_deaths/thumbnail.png'
 importance: 5
 category: Other

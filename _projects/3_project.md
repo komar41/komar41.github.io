@@ -7,7 +7,7 @@ importance: 3
 category: Other
 ---
 
-<h5><u>Access this Project</u></h5>
+<h5><u>Access this project</u></h5>
 <b>Demo URL:</b> <a href='http://shiny.evl.uic.edu:3838/g5/CS-424-Project-3-kzo/'>http://shiny.evl.uic.edu:3838/g5/CS-424-Project-3-kzo/</a> <br>
 <b>Introduction video:</b> <a href='https://www.youtube.com/watch?v=hREgA79KWEo'>https://www.youtube.com/watch?v=hREgA79KWEo</a> <br>
 <b>GitHub repo:</b> <a href='https://github.com/komar41/Big-Yellow-Taxi'>https://github.com/komar41/Big-Yellow-Taxi</a> <br>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shadow Map
-description: 
+description: Tool to visualize accumulated shadows of Chicago for three seasons
 img: 'assets/img/projects/shadow_map/thumbnail.gif'
 importance: 6
 category: Other

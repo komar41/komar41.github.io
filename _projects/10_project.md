@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Min-Support Apriori
-description: 
+description: Python implementation of minimum support apriori algorithm
 img: 'assets/img/projects/ms_apriori/thumbnail.png'
 importance: 10
 category: Other

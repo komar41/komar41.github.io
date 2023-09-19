@@ -7,7 +7,7 @@ importance: 2
 category: Other
 ---
 
-<h5><u>Access this Project</u></h5>
+<h5><u>Access this project</u></h5>
 <b>Demo URL:</b> <a href='https://akashmagnadia.shinyapps.io/cs424_p2/'>https://akashmagnadia.shinyapps.io/cs424_p2/</a> <br>
 <b>Introduction video:</b> <a href='https://youtu.be/VtEGv0v-xSU'>https://youtu.be/VtEGv0v-xSU</a> <br>
 <b>GitHub repo:</b> <a href='https://github.com/komar41/Dont-Sleep-in-the-Subway'>https://github.com/komar41/Dont-Sleep-in-the-Subway</a> <br>

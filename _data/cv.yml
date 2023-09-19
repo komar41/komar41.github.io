@@ -1,4 +1,3 @@
-- title: "<strong>**Add more skills earned under technical skills, and update research experience in both CV and here. standardized test scores. add all certifications!!**</strong>"
 - title: General Information
   type: map
   contents:
@@ -14,7 +13,7 @@
   contents:
     - title: Doctor of Philosophy, Computer Science
       institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
-      year: 2021 - 2026 <br><br>(Expected)
+      year: 2021 - 2026
       description:
         - "GPA (Current): 4.00/4.00"
         - "Advised by: <a href='https://fmiranda.me/'>Dr. Fabio Miranda</a>"
@@ -27,8 +26,8 @@
         - "Thesis Supervisor: <a href='https://mist.ac.bd/department/cse/facultyMembers/lt_col_muhammad_nazrul_islam_phd-47'>Dr. Muhammad Nazrul Islam</a>"
         - title: "Research Experience:"
           contents:
-            - "<small>Developed a prediction model to detect autism spectrum disorder (ASD) for different age groups using a merged random forest (CART and ID3) classifier. The model could effectively predict autistic traits for all three age groups and was later deployed in a mobile application.</small>"
-            - "<small>Developed a system for tracking Alzheimer patients’ health and location through IOT hardware modules and a mobile application.</small>"
+            - "<p align='justify' style='margin-bottom:0'><small>Developed a prediction model to detect autism spectrum disorder (ASD) for different age groups using a merged random forest (CART and ID3) classifier. The model could effectively predict autistic traits for all three age groups and was later deployed in a mobile application.</small></p>"
+            - "<p align='justify'><small>Developed a system for tracking Alzheimer patients’ health and location through IOT hardware modules and a mobile application.</small></p>"
 
 - title: Experience
   type: time_table
@@ -47,19 +46,27 @@
         - "Supervisor: <a href='https://fmiranda.me/'>Dr. Fabio Miranda</a>"
         - title: "Research Experience:"
           contents:
-            - "<small>Investigated coverage of OpenStreetMap (OSM) sidewalk data and computed the trustworthiness index as an alternative measure to assess the quality of the data. Our study takes a step toward understanding OSM sidewalk data quality by evaluating its coverage and reliability.</small>"
-            - "<small>Developed a novel computational framework based on a conditional generative adversarial neural network that enables the quantification of sunlight access and shadows at a global scale.</small>"
-            - "<small>Developed an in-memory model to approximate spatiotemporal mobility-flow queries based on NeuralCubes - a neural network model for learning query-result approximation.</small>"
+            - "<p align='justify' style='margin-bottom:0'><small>Developed a comprehensive toolkit for gait data analysis and visualization (ongoing).</small></p>"
+            - "<p align='justify' style='margin-bottom:0'><small align='justify'>Investigated coverage of OpenStreetMap (OSM) sidewalk data and computed the trustworthiness index as an alternative measure to assess the quality of the data. Our study takes a step toward understanding OSM sidewalk data quality by evaluating its coverage and reliability.</small></p>"
+            - "<p align='justify' style='margin-bottom:0'><small align='justify'>Developed a novel computational framework based on a conditional generative adversarial neural network that enables the quantification of sunlight access and shadows at a global scale.</small></p>"
+            - "<p align='justify'><small>Developed an in-memory model to approximate spatiotemporal mobility-flow queries based on NeuralCubes - a neural network model for learning query-result approximation.</small></p>"
 
     - title: Graduate Teaching Assistant
       institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
-      year: Aug 2022 - Dec 2022<br><br>(Fall 2022)
+      year: Aug 2023 - Present
+      description:
+        - "<a href='https://fmiranda.me/courses/cs424-fall-2023/'>CS 424: Visualization and Visual Analytics</a>"
+        - "Course Instructor: Dr. Fabio Miranda."
+
+    - title: Graduate Teaching Assistant
+      institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
+      year: Aug 2022 - Dec 2022
       description:
         - "<a href='https://fmiranda.me/courses/cs424-fall-2022/'>CS 424: Visualization and Visual Analytics</a>"
         - "Course Instructor: Dr. Fabio Miranda."
     - title: Graduate Teaching Assistant
       institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
-      year: Jan 2022 - Mar 2022<br><br>(Spring 2022)
+      year: Jan 2022 - Mar 2022
       description:
         - "<a href='https://fmiranda.me/courses/cs425-spring-2022/'>CS 425: Computer Graphics</a>"
         - "Course Instructor: Dr. Fabio Miranda."
@@ -82,8 +89,18 @@
   contents:
     - year: 2018
       description: "Merit Scholarship for academic performance, Military Institute of Science and Technology"
-    - year: 2016 - 2017
+    - year: 2016, 2017
       description: "Dean’s List Award (two consecuctive years), Military Institute of Science and Technology"
+
+- title: Services
+  type: time_table
+  contents:
+    - year: 2022, 2023
+      description: "Volunteer for <a href='https://www.evl.uic.edu/events/2655'>CAVE3 demos</a> hosted by EVL, UIC."
+    - year: Oct 2021
+      description: "<a href='https://www.evl.uic.edu/events/2596'>IEEE VIS Satelite Event (2021)</a> volunteer. Held at EVL, UIC."
+    - year: 2018
+      description: "Class Representative, Department of CSE at Military Institute of Science and Technology."
     
 
 # - title: Academic Interests
@@ -104,17 +121,32 @@
     - title: Programming Languages
       items:
         - "Proficient: Python, C/C++"
-        - "Familiar: JavaScript, Java, R, MATLAB, Shell Scripting"
+        - "Familiar: JavaScript, Java, R, MATLAB, Shell Scripting, Cython"
     - title: Web
       items:
-        - "HTML, CSS, Bootstrap, Angular, Flask"
+        - "HTML, CSS, Bootstrap, React, Angular, Flask"
     - title: Libraries
       items:
-        - "NumPy, Pandas, Dask, Matplotlib, Seaborn, Plotly, scikit-learn, TensorFlow, d3.js, Shiny"
+        - "Data processing: NumPy, Pandas, Dask"
+        - "Geo-data processing: Geopandas, Osmium, Overpass, PlotOptiX, Pyrosm, Shapely, Spatialpandas"
+        - "Data visualization: Matplotlib, Seaborn, Plotly, Vega-lite, d3.js, Three.js, Shiny"
+        - "Machine learning: Scikit-learn, TensorFlow"
     - title: Other Skills
       items:
         - Version control - Git
         - Latex/Overleaf
+
+- title: Standardized Test Scores
+  type: nested_list
+  contents:
+    - title: International English Language Testing System (IELTS)
+      items:
+        - "Score: 8.0"
+        - "Listening: 8.5, Reading: 8.5, Writing: 6.5, Speaking: 7.5"
+    - title: Graduate Record Examinations (GRE)
+      items:
+        - "Score: 313"
+        - "Verbal Reasoning: 152, Quantitative Reasoning: 161, Analytical Writing: 4.0"
 
 - title: Other Interests
   type: list

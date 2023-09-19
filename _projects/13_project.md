@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sidewalk Data Quality
-description: 
+description: Coverage of OSM sidewalks and trustworthiness as an alternative measure of data quality
 img: 'assets/img/projects/sidewalk_data_quality/thumbnail.png'
 importance: 1
 category: Research

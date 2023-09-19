@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PyGait (Ongoing)
-description: 
+description:  A comprehensive toolkit for gait/motion data analysis and visualizaiton
 img: 'assets/img/projects/pygait/thumbnail.png'
 importance: 2
 category: Research

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-10-26
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Volunteered and attended <a href='https://www.evl.uic.edu/events/2596'>IEEE VIS Satellite Event 2021</a>.
