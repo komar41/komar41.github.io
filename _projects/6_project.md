@@ -2,79 +2,85 @@
 layout: page
 title: FlowVis
 description: Computational fluid flow simulation of 3D point cloud data using three.js
-img: 'assets/img/projects/flowvis/thumbnail.png'
+img: "assets/img/projects/flowvis/thumbnail.png"
 importance: 7
 category: Other
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
+<h4><u>Access this project</u></h4>
+<b>Demo URL:</b> <a href='https://komar41.github.io/three-js-flow/'>https://komar41.github.io/three-js-flow/</a> <br>
+<b>GitHub repo:</b> <a href='https://github.com/komar41/three-js-flow'>https://github.com/komar41/three-js-flow</a> <br>
+<b>Tools used:</b> Three.js, D3.js, JavaScript, HTML, CSS.
+<p align='justify'>
+This project aims to visualize and analyze computational fluid flow simulation data from the San Diego Supercomputing Center using Three.js and D3.js. The goal is to create an interactive 3D visualization of the flow data, complemented by a linked 2D visualization. This project will provide insights into fluid dynamics while demonstrating various visualization techniques and interactions in a web-based environment.
+</p>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img src="https://github.com/komar41/three-js-flow/raw/main/imgs/flow-final.png" alt="Flow Visualization with Three.js" class="img-fluid rounded z-depth-1">
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+<br>
+<h4><u>Project Objectives</u></h4>
+<p align='justify'>
+<ul>
+    <li>Load and display a 3D point cloud on the web</li>
+    <li>Embed a 2D slice visualization within the 3D point cloud using D3.js</li>
+    <li>Implement linked views, brushing and linking, view manipulation, and filtering</li>
+</ul>
+</p>
+<h4><u>Visualization Components</u></h4>
+<h5>1. 3D Point Cloud Visualization</h5>
+<p align='justify'>
+<ul>
+    <li>Display the fluid flow data as a 3D point cloud</li>
+    <li>Colormap the point cloud based on concentration values</li>
+</ul>
+</p>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <img src="https://github.com/komar41/three-js-flow/raw/main/imgs/flow-cylinder.png" alt="3D Point Cloud Visualization" class="img-fluid rounded z-depth-1">
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<br>
+<h5>2. 2D Vertical Slice View</h5>
+<p align='justify'>
+<ul>
+    <li>Create a second view using D3.js</li>
+    <li>Display a vertical 2D slice of the data (XY slice with fixed Z value)</li>
+</ul>
+</p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img src="https://github.com/komar41/three-js-flow/raw/main/imgs/2d-vertical-slice.png" alt="2D Vertical Slice View" class="img-fluid rounded z-depth-1">
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<br>
+<h5>3. Cut-Plane Filter</h5>
+<p align='justify'>
+<ul>
+    <li>Add a vertical XY rectangle filter in the 3D view to link with the 2D slice within the 3D flow</li>
+    <li>Allow user to move the rectangle through the flow along the Z axis</li>
+</ul>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+<h4><u>Interaction Features</u></h4>
+<p align='justify'>
+<ul>
+    <li>Rotate the cylinder containing the flow</li>
+    <li>Move the cut-plane filter along the Z axis</li>
+    <li>Linked updates between 3D and 2D views</li>
+</ul>
+</p>
+<h4><u>Data Source</u></h4>
+<p align='justify'>
+<ul>
+    <li>Computational fluid flow simulation dataset from San Diego Supercomputing Center: <a href="http://www.uni-kl.de/sciviscontest/">http://www.uni-kl.de/sciviscontest/</a></li>
+</ul>
+</p>
+<h4><u>Resources</u></h4>
+<p align='justify'>
+<ul>
+    <li><a href="http://threejs.org/docs/">Three.js documentation and examples</a></li>
+    <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
+    <li><a href="https://d3-graph-gallery.com/">D3 Graph Gallery</a></li>
+</ul>
+</p>
