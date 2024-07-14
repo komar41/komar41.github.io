@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tree models in ASD
+title: Tree models for ASD
 description: Exploring tree-based machine learning methods to predict autism spectrum disorder
 img: "assets/img/projects/tree_ml_autism/overview.png"
 importance: 5
