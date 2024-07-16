@@ -3,7 +3,7 @@ layout: page
 title: Deep Umbra
 description: A generative approach for sunlight access computation in urban spaces
 img: "assets/img/projects/deep_umbra/thumbnail.png"
-importance: 1
+importance: 2
 category: Research
 related_publications: omar2024deep
 ---

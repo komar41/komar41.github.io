@@ -3,7 +3,7 @@ layout: page
 title: VIGMA (In Review)
 description: A comprehensive toolkit for gait/motion data analysis and visualizaiton
 img: "assets/img/projects/vigma/teaser.png"
-importance: 2
+importance: 1
 category: Research
 ---
 
