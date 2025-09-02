@@ -3,6 +3,49 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{omar2025vigma,
+  abbr={TVCG},
+  bibtex_show={true},
+  title={VIGMA: An Open-Access Framework for Visual Gait and Motion Analytics},
+  doi={https://doi.org/10.1109/TVCG.2025.3564866},
+  author={Omar, Kazi Shahrukh and Wang, Shuaijie and Kungumaraju, Ridhuparan and Bhatt, Tanvi and Miranda, Fabio},
+  journal={IEEE Transactions on Visualization and Computer Graphics},
+  year={2025},
+  pdf={vigma.pdf},
+  preview={vigma.png},
+  abstract={Gait disorders are commonly observed in older adults, who frequently experience various issues related to walking. Additionally, researchers and clinicians extensively investigate mobility related to gait in typically and atypically developing children, athletes, and individuals with orthopedic and neurological disorders. Effective gait analysis enables the understanding of the causal mechanisms of mobility and balance control of patients, the development of tailored treatment plans to improve mobility, the reduction of fall risk, and the tracking of rehabilitation progress. However, analyzing gait data is a complex task due to the multivariate nature of the data, the large volume of information to be interpreted, and the technical skills required. Existing tools for gait analysis are often limited to specific patient groups (e.g., cerebral palsy), only handle a specific subset of tasks in the entire workflow, and are not openly accessible. To address these shortcomings, we conducted a requirements assessment with gait practitioners (e.g., researchers, clinicians) via surveys and identified key components of the workflow, including (1) data processing and (2) data analysis and visualization. Based on the findings, we designed VIGMA, an open-access visual analytics framework integrated with computational notebooks and a Python library, to meet the identified requirements. Notably, the framework supports analytical capabilities for assessing disease progression and for comparing multiple patient groups. We validated the framework through usage scenarios with experts specializing in gait and mobility rehabilitation. VIGMA is available at https://github.com/komar41/vigma.},
+  selected={true},
+  publisher={IEEE}
+}
+
+@article{wang2025automatic,
+  abbr={JNER},
+  bibtex_show={true},
+  title={Automatic Gait EVENT Detection in Older Adults During Perturbed Walking},
+  doi={https://doi.org/10.1186/s12984-025-01560-9},
+  author={Wang, Shuaijie and Omar, Kazi Shahrukh and Miranda, Fabio and Bhatt, Tanvi},
+  journal={Journal of NeuroEngineering and Rehabilitation},
+  volume={22},
+  number={1},
+  pages={40},
+  year={2025},
+  pdf={gait_detection.pdf},
+  preview={gait_detection.png},
+  abstract={Accurate detection of gait events in older adults, particularly during perturbed walking, is essential for evaluating balance control and fall risk. Traditional force plate-based methods often face limitations in perturbed walking scenarios due to the difficulty in landing cleanly on the force plates. Subsequently, previous studies have not addressed gait event automatic detection methods for perturbed walking. This study introduces an automated gait event detection method using a bidirectional gated recurrent unit (Bi-GRU) model, leveraging ground reaction force, joint angles, and marker data, for both regular and perturbed walking scenarios from 307 healthy older adults. Our marker-based model achieved over 97% accuracy with a mean error of less than 14 ms in detecting touchdown (TD) and liftoff (LO) events for both walking scenarios. The results highlight the efficacy of kinematic approaches, demonstrating their potential in gait event detection for clinical settings. When integrated with wearable sensors or computer vision techniques, these methods enable real-time, precise monitoring of gait patterns, which is helpful for applying personalized programs for fall prevention. This work takes a significant step forward in automated gait analysis for perturbed walking, offering a reliable method for evaluating gait patterns, balance control, and fall risk in clinical settings.},
+  publisher={Springer}
+}
+
+@misc{omar2025ocuds,
+  title={Developing an Open Computational Framework for Decision Support Across Transportation, Weather, and Public Health},
+  author={Omar, Kazi Shahrukh and Moreira, Gustavo, and Veiga, Carolina and Miranda, Fabio},
+  bibtex_show={true},
+  abstract={Urban environments present complex challenges in diverse domains, requiring decision-making processes that integrate diverse data sources. Current systems created to support decision-making often lack the flexibility needed for interdisciplinary applications. To address this gap, this work establishes the foundation for an open computational framework designed to support decision-making across transportation, weather, and public health domains. We began by conducting a survey to assess experts’ data needs, common tasks, and decision-making processes. Insights from this survey informed the identification and definition of foundational components necessary for building a flexible decision-support system. Additionally, we present our efforts to integrate these components into Curio, a framework for collaborative cross-domain urban visual analysis. Curio employs a dataflow model with multiple abstraction levels - including code, grammar, and graphical user interface elements - enabling experts to integrate data preprocessing, management, and visualization while maintaining provenance tracking. Curio supports cross-domain analysis of urban datasets such as city-scale noise, shadow, sidewalk infrastructure, as well as climate and weather model outputs, among others. We demonstrate Curio’s potential through a set of use cases showcasing its ability to facilitate interdisciplinary analysis and support data-driven decision-making.},
+  year={2025},
+  pdf={poster_ocuds.pdf},
+  preview={poster_ocuds.png},
+  howpublished={Poster presented at Sustainability Research + Innovavtion Congress 2025},
+}
+
 @article{omar2024deep,
   abbr={TBDATA},
   bibtex_show={true},
@@ -10,10 +53,14 @@
   doi={https://doi.org/10.1109/TBDATA.2024.3382964},
   author={Omar, Kazi Shahrukh and Moreira, Gustavo and Hodczak, Daniel and Hosseini, Maryam and Colaninno, Nicola and Lage, Marcos and Miranda, Fabio},
   journal={IEEE Transactions on Big Data},
+  volume={11},
+  number={2},
+  pages={388--401},
   year={2024},
   pdf={deep_umbra.pdf},
   preview={deep_umbra.png},
   abstract={Sunlight and shadow play critical roles in how urban spaces are utilized, thrive, and grow. While access to sunlight is essential to the success of urban environment, shadows can provide shaded places to stay during the hot seasons, mitigate heat island effect, and increase pedestrian comfort levels. Properly quantifying sunlight access and shadows in large urban environments is key in tackling some of the important challenges facing cities today. In this paper, we propose Deep Umbra, a novel computational framework that enables the quantification of sunlight access and shadows at a global scale. Our framework is based on a conditional generative adversarial network that considers the physical form of cities to compute high-resolution spatial information of accumulated sunlight access for the different seasons of the year. We use data from seven different cities to train our model, and show, through an extensive set of experiments, its low overall RMSE (below 0.1) as well as its extensibility to cities that were not part of the training set. Additionally, we contribute a set of case studies and a comprehensive dataset with sunlight access information for more than 100 cities across six continents of the world. Deep Umbra is available at urbantk.org/shadows},
+  publisher={IEEE},
   selected={true}
 }
 
@@ -21,7 +68,7 @@
   abbr={ECCE},
   bibtex_show={true},
   title={A machine learning approach to predict autism spectrum disorder},
-  doi={https://ieeexplore.ieee.org/document/8679454},
+  doi={https://doi.org/10.1109/ECACE.2019.8679454},
   author={Omar, Kazi Shahrukh and Mondal, Prodipta and Khan, Nabila Shahnaz and Rizvi, Md Rezaul Karim and Islam, Md Nazrul},
   booktitle={International conference on electrical, computer and communication engineering (ECCE)},
   pages={1--6},
@@ -36,7 +83,7 @@
   abbr={ICASERT},
   bibtex_show={true},
   title={An intelligent assistive tool for alzheimer’s patient},
-  doi={https://ieeexplore.ieee.org/document/8934542},
+  doi={https://doi.org/10.1109/ICASERT.2019.8934542},
   author={Omar, Kazi Shahrukh and Anjum, Afia and Oannahary, Tahrima and Rizvi, Rezaul Karim and Shahrin, Diana and Anannya, Tasmiah Tamzid and Tumpa, Sanjida Nasreen and Karim, MMahboob and Islam, Muhammad Nazrul and Rabbi, Fazle},
   booktitle={International Conference on Advances in Science, Engineering and Robotics Technology (ICASERT)},
   pages={1--6},
@@ -71,6 +118,7 @@ abbr={Elsevier},
   booktitle={Neural Engineering Techniques for Autism Spectrum Disorder},
   pages={165--183},
   year={2021},
+  pdf={tree_ml.pdf},
   publisher={Elsevier},
   preview={tree_ml_3.png}
 }

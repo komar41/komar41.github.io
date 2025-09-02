@@ -42,7 +42,7 @@
       year: Aug 2021 - Present
       description:
         - "Advisor: <a href='https://fmiranda.me/'>Fabio Miranda</a>"
-        - "Research on Visual Analytics and Machine Learning focused on Urban Planning and Health Informatics."
+        - "Research on Visual Analytics and Machine Learning within diverse domains such as Urban Planning and Healthcare."
           # contents:
           #   - "<p align='justify' style='margin-bottom:0'><small>Developed a comprehensive toolkit for gait data analysis and visualization (ongoing).</small></p>"
           #   - "<p align='justify' style='margin-bottom:0'><small align='justify'>Investigated coverage of OpenStreetMap (OSM) sidewalk data and computed the trustworthiness index as an alternative measure to assess the quality of the data. Our study takes a step toward understanding OSM sidewalk data quality by evaluating its coverage and reliability.</small></p>"
@@ -53,11 +53,15 @@
       institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
       year: Aug 2021 - Present
       description:
-        - "Instructors: Fabio Miranda, Andruid Kerne."
+        - "<u>Courses</u>:"
         - "<a href='https://ecologylab.net/courses/ui/index.html'>CS 422</a>: User Interface Design and Programming"
         - "<a href='https://fmiranda.me/courses/cs424-fall-2023/'>CS 424</a>: Visualization and Visual Analytics"
-        - "<a href='https://fmiranda.me/courses/cs425-spring-2022/'>CS 425</a>: Computer Graphics"
+        - "<a href='https://fmiranda.me/courses/cs425-spring-2022/'>CS 425</a>: Computer Graphics<br><br>"
 
+        - "<u>Duties</u>:"
+        - "Conducted office hours for 40–60 students per semester."
+        - "Graded assignments and exams, provided feedback on design and code."
+        - "Assisted instructor in developing course materials and managing online learning platforms (e.g., Blackboard, Piazza)."
     # - title: Graduate Teaching Assistant
     #   institution: "<a href='https://www.uic.edu/'>University of Illinois Chicago, USA</a>"
     #   year: Aug 2023 - Dec 2023<br><br>Aug 2022 - Dec 2022
@@ -71,35 +75,55 @@
     #   description:
     #     - "<a href='https://fmiranda.me/courses/cs425-spring-2022/'>CS 425: Computer Graphics</a>"
     #     - "Course Instructor: Dr. Fabio Miranda."
+    - title: PhD Data Visualization Intern
+      institution: "<a href='https://www.epsilon.com/us'>Epsilon, USA</a>"
+      year: May 2025 - Aug 2025
+      description:
+        - "Created a pipeline to extract user sessions of a business application DiME."
+        - "Developed a pattern mining algorithm to extract patterns in user sessions."
+        - "Developed a visual analytics system to analyze unique sessions and patterns in the user sessions."
+        - "Developed KPI based indicators of user session data."
+
     - title: Lecturer
       institution: "<a href='https://uttarauniversity.edu.bd/'>Uttara University, Bangladesh</a>"
       year: Jul 2019 - Jun 2021
       description:
-        - "Courses Taught: Discrete Mathematics, Computer Peripheral Interfacing and Maintenance, Digital Logic Design, Computer Graphics, Object Oriented Programming, Design and Analysis of Algorithms, Data Structures."
-
+        - "<u>Courses Taught</u>: Discrete Mathematics, Computer Peripheral Interfacing and Maintenance, Digital Logic Design, Computer Graphics, Object Oriented Programming, Design and Analysis of Algorithms, Data Structures.<br><br>"
+        - "<u>Duties</u>:"
+        - "Designed and delivered lectures for undergraduate students across multiple core computer science courses."
+        - "Created exams, assignments, and lab materials."
+        - "Mentored students on research and project work."
+        - "Collaborated with departmental faculty on curriculum development."
     - title: Software Developer Intern
       institution: "<a href='https://solutionart.net/'>Solution Art Ltd, Bangladesh</a>"
       year: Nov 2017 - Dec 2017
       description:
+        - Two-month internship as part of undergraduate (BSc) industrial training.
         - Designed database schema for a hotel management system.
         - Frontend development of the system.
 
 - title: Projects
   type: time_table
   contents:
-    - title: Decision Support Tools for Sustainable Urban Planning and Public Health
-      year: 2024 - Present
+    - title: "Decision Support Tools for Sustainable Urban Planning and Public Health <br>(<a href='https://drive.google.com/file/d/1bCJYe8xN_GrREqrNgFlVXah7tbRT55L4/view?usp=sharing'>Poster</a>)"
+      year: 2025 - Present
       description:
         - Development of a decision support tool integrating visual analytics for sustainable urban planning, transportation, energy, and public health.
         - Flexible design framework adaptable to various decision-support scenarios, focusing on environmental parameters like carbon footprint and air quality.
 
-    - title: "Visual Gait and Motion Analysis <br>(Paper under review at IEEE TVCG)"
+    - title: "View Computation & Exploration in 3D Urban Environments <br>(Paper in review at IEEE TVCG)"
+      year: 2024 - Present
+      description:
+        - Proposed a neural field-based ML method for fast, occlusion-aware 3D urban view analysis.
+        - Enabled urban analysis tasks such as facade visibility assessment, solar exposure evaluation, and view impact studies, validated through real-world case studies and quantitative experiments.
+
+    - title: "Visual Gait and Motion Analysis <br>(<a href='https://doi.org/10.1109/TVCG.2025.3564866'>Paper</a>)"
       year: 2023 - 2024
       description:
         - "Developed <a href='https://github.com/komar41/vigma'>VIGMA</a>, an open-access visual analytics system for gait and motion analysis, integrating computational notebooks and a Python library."
         - Analytical capabilities for disease progression analysis and multi-patient group comparisons, validated through expert usage scenarios.
 
-    - title: "Bi-GRU Model for Automatic Gait Event Detection in Older Adults<br>(Paper under review at Journal of NeuroEngineering and Rehabilitation)"
+    - title: "Bi-GRU Model for Automatic Gait Event Detection in Older Adults<br>(<a href='https://doi.org/10.1186/s12984-025-01560-9'>Paper</a>)"
       year: 2023 - 2024
       description:
         - Developed an automatic gait event detection method using Bi-GRU models, specifically tailored for perturbed walking scenarios in older adults, leveraging marker, angle, and GRF data.
@@ -184,11 +208,14 @@
   contents:
     - title: Programming Languages
       items:
-        - "Proficient: Python, JavaScript, C/C++"
-        - "Familiar: TypeScript, Java, R, MATLAB, Shell Scripting, Cython"
+        - "Proficient: Python, JavaScript, TypeScript, C/C++"
+        - "Familiar: Java, R, MATLAB, Shell Scripting, Cython"
     - title: Web
       items:
         - "React, Angular, Flask, HTML, CSS, Bootstrap"
+    - title: Database
+      items:
+        - "MySQL, PostgreSQL, SQLite, MongoDB"
     - title: Mobile App Development
       items:
         - "React Native, Android Studio"
@@ -209,8 +236,10 @@
 - title: Talks and Presentations
   type: time_table
   contents:
+    - title: Developing an Open Computational Framework for Decision Support Across Transportation, Weather, and Public Health
+      description: Poster presented at Sustainability Research + Innovavtion Congress 2025.
     - title: Visual Analytics Approaches for Facilitating Explainability of Graph Neural Networks
-      description: Ph.D. Qualifier Exam, 2023
+      description: Ph.D. Qualifier Exam, 2023.
     - title: "Crowdsourcing and Sidewalk Data: A Preliminary Study on the Trustworthiness of OpenStreetMap Data in the US"
       description: Paper presented at ASSETS’22 Workshop on The Future of Urban Accessibility, 2022.
     - title: "An Intelligent Assistive Tool for Alzheimer’s Patient"
