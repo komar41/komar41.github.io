@@ -20,6 +20,12 @@ related_publications: omar2024deep
     
 </div>
 
+`Key Contributions: `
+
+- Developed Deep Umbra, a conditional generative adversarial network model to quantify shadows.
+- A method 6x faster compared to the state-of-the-art shadow computation techniques.
+- Open-sourced a comprehensive shadow dataset for over 100 cities, validated by a low RMSE (~0.06).
+
 `Abstract`
 
 <p align='justify'>

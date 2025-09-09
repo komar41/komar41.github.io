@@ -20,6 +20,11 @@ related_publications: wang2025automatic
     
 </div>
 
+`Key Contributions: `
+
+- Developed a Bi-GRU-based automated gait event detection model achieving >97% accuracy and <14 ms mean error in both regular and perturbed walking.
+- Analyzed gait data from 307 healthy older adults, demonstrating the model’s robustness across challenging perturbed walking scenarios where traditional force plate methods fail.
+
 `Abstract`
 
 <p align='justify'>

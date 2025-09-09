@@ -17,7 +17,6 @@
       description:
         - "GPA (Current): 4.00/4.00"
         - "Advisor: <a href='https://fmiranda.me/'>Fabio Miranda</a>"
-        - "Research area: Visualization and Visual analytics, Big Data Analysis, Applied Machine Learning"
     - title: Bachelor of Science, Computer Science & Engineering
       institution: "<a href='https://mist.ac.bd/'>Military Institute of Science and Tehcnology, Bangladesh</a>"
       year: 2015 - 2019
@@ -42,7 +41,7 @@
       year: Aug 2021 - Present
       description:
         - "Advisor: <a href='https://fmiranda.me/'>Fabio Miranda</a>"
-        - "Research on Visual Analytics and Machine Learning within diverse domains such as Urban Planning and Healthcare."
+        - "Research area: Visualization and Visual analytics, Big Data Analysis, Applied Machine Learning"
           # contents:
           #   - "<p align='justify' style='margin-bottom:0'><small>Developed a comprehensive toolkit for gait data analysis and visualization (ongoing).</small></p>"
           #   - "<p align='justify' style='margin-bottom:0'><small align='justify'>Investigated coverage of OpenStreetMap (OSM) sidewalk data and computed the trustworthiness index as an alternative measure to assess the quality of the data. Our study takes a step toward understanding OSM sidewalk data quality by evaluating its coverage and reliability.</small></p>"
@@ -59,7 +58,7 @@
         - "<a href='https://fmiranda.me/courses/cs425-spring-2022/'>CS 425</a>: Computer Graphics<br><br>"
 
         - "<u>Duties</u>:"
-        - "Conducted office hours for 40–60 students per semester."
+        - "Served as TA for 4 semesters, conducting office hours for 40–60 students per semester."
         - "Graded assignments and exams, provided feedback on design and code."
         - "Assisted instructor in developing course materials and managing online learning platforms (e.g., Blackboard, Piazza)."
     # - title: Graduate Teaching Assistant
@@ -79,28 +78,28 @@
       institution: "<a href='https://www.epsilon.com/us'>Epsilon, USA</a>"
       year: May 2025 - Aug 2025
       description:
-        - "Created a pipeline to extract user sessions of a business application DiME."
-        - "Developed a pattern mining algorithm to extract patterns in user sessions."
-        - "Developed a visual analytics system to analyze unique sessions and patterns in the user sessions."
-        - "Developed KPI based indicators of user session data."
+        - "Created a pipeline to process ~1 million activity logs from the DiME business application, extracting user sessions to enable detailed behavioral analysis across user groups."
+        - "Developed a pattern mining algorithm that computes recurring usage patterns, to understand user workflows and usage bottlenecks."
+        - "Developed a visual analytics system that allowed stakeholders to easily uncover patterns in user sessions."
+        - "Developed custom KPI based indicators (e.g., session duration, sessions per week) from the data."
 
     - title: Lecturer
       institution: "<a href='https://uttarauniversity.edu.bd/'>Uttara University, Bangladesh</a>"
       year: Jul 2019 - Jun 2021
       description:
-        - "<u>Courses Taught</u>: Discrete Mathematics, Computer Peripheral Interfacing and Maintenance, Digital Logic Design, Computer Graphics, Object Oriented Programming, Design and Analysis of Algorithms, Data Structures.<br><br>"
-        - "<u>Duties</u>:"
-        - "Designed and delivered lectures for undergraduate students across multiple core computer science courses."
-        - "Created exams, assignments, and lab materials."
-        - "Mentored students on research and project work."
-        - "Collaborated with departmental faculty on curriculum development."
+        - "Taught 7 core undergraduate computer science courses, consistently earning high student feedback ratings (4.5+/5) across multiple semesters."
+        - "Supervised 6+ undergraduate students through their final-year projects and thesis submissions, leading to successful graduation."
+        - "Created exams, assignments, lab materials, and contributed to curriculum development of courses.<br><br>"
+        - "<u>Courses Taught</u>: Discrete Mathematics, Computer Peripheral Interfacing and Maintenance, Digital Logic Design, Computer Graphics, Object Oriented Programming, Design and Analysis of Algorithms, Data Structures."
+
     - title: Software Developer Intern
       institution: "<a href='https://solutionart.net/'>Solution Art Ltd, Bangladesh</a>"
       year: Nov 2017 - Dec 2017
       description:
-        - Two-month internship as part of undergraduate (BSc) industrial training.
-        - Designed database schema for a hotel management system.
-        - Frontend development of the system.
+        - "Completed a 2-month internship as part of BSc industrial training.<br><br>"
+        - "<u>Duties</u>:"
+        - "Designed database schema for a hotel management system, improving data organization."
+        - "Developed part of the frontend interface that supports intuitive booking for end-users."
 
 - title: Projects
   type: time_table
@@ -108,56 +107,62 @@
     - title: "Decision Support Tools for Sustainable Urban Planning and Public Health <br>(<a href='https://drive.google.com/file/d/1bCJYe8xN_GrREqrNgFlVXah7tbRT55L4/view?usp=sharing'>Poster</a>)"
       year: 2025 - Present
       description:
-        - Development of a decision support tool integrating visual analytics for sustainable urban planning, transportation, energy, and public health.
-        - Flexible design framework adaptable to various decision-support scenarios, focusing on environmental parameters like carbon footprint and air quality.
+        - Developing oCUDS, a cross-domain visualization framework supporting urban decision-making across public health, transportation and climate domains.
+        - Designed with a multi-level dataflow model to enable flexible integration of preprocessing, visualization, and provenance tracking for diverse urban datasets.
+        - Integrating LLM-based natural language interface to allow end-users to query scenarios and decision-support tasks using intuitive, conversational prompts.
 
     - title: "View Computation & Exploration in 3D Urban Environments <br>(Paper in review at IEEE TVCG)"
       year: 2024 - Present
       description:
-        - Proposed a neural field-based ML method for fast, occlusion-aware 3D urban view analysis.
-        - Enabled urban analysis tasks such as facade visibility assessment, solar exposure evaluation, and view impact studies, validated through real-world case studies and quantitative experiments.
+        - Developed a neural field based model to support view-based exploration of 3D urban environments, enabling tasks such as visibility analysis, solar exposure evaluation, and visual impact assessment of new developments.
+        - Achieved <10% prediction error in ~80% of regions across multiple synthetic scenarios.
+        - Outperformed KNN and random forest baselines in predicting semantic view composition, reaching 0.046 RMSE on a test set of 15,000 views and demonstrating robustness in low-data regimes.
+        - Engineered the model for real-time performance, achieving ~4 million views/second at scale with a 2.4 MB memory footprint, making it ~80× faster than traditional rasterization approaches.
 
     - title: "Visual Gait and Motion Analysis <br>(<a href='https://doi.org/10.1109/TVCG.2025.3564866'>Paper</a>)"
       year: 2023 - 2024
       description:
         - "Developed <a href='https://github.com/komar41/vigma'>VIGMA</a>, an open-access visual analytics system for gait and motion analysis, integrating computational notebooks and a Python library."
-        - Analytical capabilities for disease progression analysis and multi-patient group comparisons, validated through expert usage scenarios.
+        - Demonstrated support for multivariate gait data—kinetic, kinematic, and spatiotemporal parameters—using 120+ trials from healthy and stroke patients collected at baseline and 6-month follow-up.
+        - Validated the system with 5 domain experts from 3 research labs and 1 clinic, achieving 4–5/5 usefulness ratings and demonstrating improvements in error correction, disease tracking, and group comparison.
 
     - title: "Bi-GRU Model for Automatic Gait Event Detection in Older Adults<br>(<a href='https://doi.org/10.1186/s12984-025-01560-9'>Paper</a>)"
       year: 2023 - 2024
       description:
-        - Developed an automatic gait event detection method using Bi-GRU models, specifically tailored for perturbed walking scenarios in older adults, leveraging marker, angle, and GRF data.
-        - Demonstrated that kinematic-based approaches, as opposed to traditional GRF methods, offer promising accuracy and efficiency, reducing the need for manual cross-validation in clinical gait analysis.
+        - Developed a Bi-GRU-based automated gait event detection model achieving >97% accuracy and <14 ms mean error in both regular and perturbed walking.
+        - Analyzed gait data from 307 healthy older adults, demonstrating the model’s robustness across challenging perturbed walking scenarios where traditional force plate methods fail.
 
     - title: "Navigating Large Dining Hall Spaces Considering Dietary Restrictions"
       year: 2024
       description:
-        - Developed a React Native mobile application to assist students with dietary restrictions in navigating UIC's dining hall, featuring personalized meal planning, detailed dish information, and interactive maps.
-        - Conducted user research and comparative testing, resulting in positive feedback on the app's usability and planning future improvements like custom dietary restrictions and enhanced image matching.
+        - Designed and developed a React Native mobile app for UIC dining hall navigation, enabling personalized meal planning and efficient access to dietary-specific food options.
+        - Conducted user research with 6 participants and a comparative study against the existing “Dine on Campus” app, showing improved efficiency and user satisfaction.
 
     - title: "Generative Model for Global Sunlight Access and Shadows <br>(<a href='https://arxiv.org/pdf/2402.17169'>Paper</a>)"
       year: 2022 - 2023
       description:
         - "Developed <a href='https://github.com/uic-evl/deep-umbra'>Deep Umbra</a>, a novel computational framework utilizing a generative adversarial network to quantify sunlight access and shadows in urban environments at a global scale."
-        - Created a comprehensive dataset with sunlight access information for over 100 cities, demonstrating the model's low RMSE and extensibility across different urban contexts.
+        - 6x faster compared to the state-of-the-art accumulated shadow computation techniques.
+        - Open-sourced a comprehensive shadow dataset for over 100 cities, validated by a low RMSE (~0.06).
 
     - title: "Trustworthiness of OpenStreetMap Sidewalk Data in US<br>(<a href='https://arxiv.org/pdf/2210.02350'>Paper</a>)"
       year: 2022
       description:
-        - Conducted a preliminary study on the availability and trustworthiness of OpenStreetMap (OSM) sidewalk data across over 50 major U.S. cities, addressing the scarcity of open sidewalk data.
-        - Analyzed the completeness of sidewalk data in Seattle, Chicago, and New York City, and developed a trustworthiness index using historical OSM sidewalk data.
+        - Conducted a comparative analysis of OSM sidewalk data across 54 major U.S. cities, revealing that 80% cities had less than 5% of sidewalk data available, highlighting severe data scarcity.
+        - Developed a trustworthiness index based on historical OSM edits to evaluate data reliability, revealing that even where sidewalk data exists, it is often unreliable—for example, in Chicago, only 24.4% of roads and 9.8% of sidewalk geometries had a trust index ≥ 0.5, with similar trends in Seattle and New York City.
 
     - title: "COVID-19 Impact Analysis in Chicago Neighborhoods"
       year: 2022
       description:
-        - Modeled the impact of COVID-19 in Chicago neighborhoods using sociodemographic and COVID-19 data across ZIP codes, performing extensive data wrangling, geospatial analysis, and correlation analysis to identify key patterns.
-        - Developed a Random Forest Regression model to predict COVID-19 death rates based on sociodemographic variables, achieving a training error rate of 0.29 and a test error rate of 0.78 deaths per thousand people, with key insights into the influence of income, housing value, and public transit usage on COVID-19 outcomes.
+        - Built a random forest regression model to predict COVID-19 deaths per 1,000 residents across Chicago ZIP codes using sociodemographic features such as income, housing, ethnicity, and transit usage.
+        - Achieved a training error of 0.29 and test error of 0.78 deaths per 1,000, demonstrating strong predictive performance for neighborhood-level COVID-19 impact.
+        - Applied principal component analysis (PCA) to explore variation in death rates across ZIP codes, revealing no clear patterns due to mixed urban, suburban, and rural contexts.
 
     - title: "Chicago Taxi Ridership Visualization Tool"
       year: 2022
       description:
-        - Developed a comprehensive visualization tool using Python, R, and Shiny to analyze and display trends in 2019 Chicago taxi ridership data, optimized for large-screen displays at UIC's EVL lab.
-        - Implemented features including detailed filtering by community areas, taxi companies, and time intervals, with findings highlighting patterns in ridership behavior across different neighborhoods and times of the day.
+        - Developed an interactive visualization tool to analyze 2019 Chicago taxi ridership trends, using 7GB of trip data hosted on UIC's EVL shiny-server.
+        - Optimized for large-screen displays and fast load times by splitting data into subfiles and pre-processing with Python scripts, enabling real-time exploration of usage trends. Discovered key insights such as low weekend ridership, rush hour spikes in the Loop, and a high concentration of short-distance, short-duration trips within central Chicago.
 
     - title: "Mobility-Flow Query Approximation using NeuralCubes"
       year: 2021
@@ -169,15 +174,15 @@
       year: 2018 - 2019
       description:
         - Undergraduate thesis.
-        - Developed a mobile application and a merged random forest prediction model to classify autism traits across all age groups, achieving over 92% accuracy with the AQ-10 dataset.
-        - Evaluated the model using both AQ-10 and 250 real-world datasets, demonstrating superior performance in accuracy, specificity, sensitivity, precision, and false positive rate (FPR) compared to existing models.
+        - Built a novel random forest ML algorithm achieving 92%+ accuracy on the AQ-10 dataset for autism prediction and evaluated performance on both AQ-10 and real-world datasets.
+        - Developed a mobile application to deploy the model for accessible, real-time screening.
 
     - title: "IoT-based Assistive Tool for Alzheimer’s Patients <br> (<a href='https://doi.org/10.1109/ICASERT.2019.8934542'>Paper</a>)"
       year: 2017
       description:
         - Undergraduate research project.
-        - Proposed an assistive tool for Alzheimer’s patients and their caregivers, offering features such as health monitoring, medication reminders, item tracking, and location monitoring.
-        - Conducted a light-weighted evaluation study with 15 participants, demonstrating the system's effectiveness and usability for both patients and caregivers.
+        - Designed and prototyped an assistive system with a mobile app to support Alzheimer’s patients and caregivers through health monitoring, medication reminders, item tracking, and location monitoring.
+        - Conducted a focus group study with 15 participants (students and faculty); 87% found the system functionally accurate, and 100% rated it easy to use, validating usability and system effectiveness. Integrated multiple assistive features into a single, unified platform—a novel contribution over prior fragmented solutions—with potential for future enhancement as wearable and offline-capable modules.
 
     # All course projects and research projects
     # - title: Visual Analytics for Supervised Prediction of Patient Symptoms

@@ -27,7 +27,7 @@ My research leverages skills in <span style="background-color: rgba(2,118,223, 0
 (1) <a href="https://github.com/komar41/vigma">VIGMA</a>, a comprehensive system for gait data processing, analysis, and visualization, and (2) <a href='https://github.com/uic-evl/deep-umbra'>Deep Umbra</a>, an accumulated shadow computation technique along with visual analytics system and shadow dataset for over 100 cities.
 <br><br>
 
-Outside of my academic work, I enjoy playing guitar, listening to music, and a little bit of reading. I also love watching series and movies, as well as traveling, although I've had fewer opportunities to travel lately. Recently, I've developed a growing interest in board games and anime.
+Outside of my academic work, I enjoy playing guitar, listening to music, and a little bit of reading. Recently, I've developed a growing interest in board games and anime.
 
 </p>
 <!-- <strong>Competencies:</strong> Urban Computing, Data Structures & Algorithms, Data Analysis, Data Visualization, Machine Learning -->

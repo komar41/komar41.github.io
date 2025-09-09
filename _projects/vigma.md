@@ -20,6 +20,12 @@ related_publications: omar2025vigma
     
 </div>
 
+`Key Contributions: `
+
+- Developed VIGMA, an open-access visual analytics framework for motion analysis.
+- Demonstrated support for multivariate gait data—kinetic, kinematic, and spatiotemporal parameters—using 120+ trials from healthy and stroke patients collected at baseline and 6-month follow-up.
+- Validated the system with 5 domain experts from 3 research labs and 1 clinic, achieving 4–5/5 usefulness ratings and demonstrating improvements in error correction, disease tracking, and group comparison.
+
 `Abstract`
 
 <p align='justify'>

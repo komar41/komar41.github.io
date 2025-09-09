@@ -18,6 +18,11 @@ related_publications: omar2019machine
         <b>Figure:</b> User interface of ASD Screening application. 
 </div>
 
+`Key Contributions: `
+
+- Built a novel random forest ML algorithm achieving 92%+ accuracy on the AQ-10 dataset for autism prediction and evaluated performance on both AQ-10 and real-world datasets.
+- Developed a mobile application to deploy the model for accessible, real-time screening.
+
 `Abstract`
 
 <p align='justify'>

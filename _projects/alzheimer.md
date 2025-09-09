@@ -21,6 +21,12 @@ related_publications: omar2019intelligent
     
 </div>
 
+`Key Contributions: `
+
+- Designed and prototyped an assistive system with a mobile app to support Alzheimer’s patients and caregivers through health monitoring, medication reminders, item tracking, and location monitoring.
+- Conducted a focus group study with 15 participants (students and faculty); 87% found the system functionally accurate, and 100% rated it easy to use, validating usability and system effectiveness.
+- Integrated multiple assistive features into a single, unified platform—a novel contribution over prior fragmented solutions—with potential for future enhancement as wearable and offline-capable modules.
+
 `Abstract`
 
 <p align='justify'>

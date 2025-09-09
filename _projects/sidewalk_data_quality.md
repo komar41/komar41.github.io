@@ -20,6 +20,11 @@ related_publications: omar2022crowdsourcing
     </p>
 </div>
 
+`Key Contributions: `
+
+- Conducted a comparative analysis of OSM sidewalk data across 54 major U.S. cities, revealing that 80% cities had less than 5% of sidewalk data available, highlighting severe data scarcity.
+- Developed a trustworthiness index based on historical OSM edits to evaluate data reliability, revealing that even where sidewalk data exists, it is often unreliable—for example, in Chicago, only 24.4% of roads and 9.8% of sidewalk geometries had a trust index ≥ 0.5, with similar trends in Seattle and New York City.
+
 `Abstract`
 
 <p align='justify'>
